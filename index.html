@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+
+  </head>
+  <body>
+    <h3>Counting Change</h3>
+    <p>Input an amount in cents and click 'Get Change.' You will get every possible way to to get that value in pennies, nickels, dimes, quarters, and half-dollars.</p>
+    <h4>Don't go too high. Like Icarus, you may crash... your browser.</h4>
+    <p>200 is probably the highest you should go. Even then, there's a heart stopping moment in which it's unclear if it's struggling or if you outright broke it.</p>
+    <input id="total" type="number"> cents
+    <button onclick="getChange()">Get Change</button>
+    <br>
+    <br>
+    <div id="ans" class="result"></div>
+    <br>
+    <div id="combo" class="result"></div>
+    <script src="sketch.js"></script>
+  </body>
+</html>
