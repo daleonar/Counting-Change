@@ -1,0 +1,19 @@
+html,
+body {
+  margin: 20px 0px 0px 20px;
+  padding: 0;
+  background-color: white;
+}
+
+canvas {
+  display: block;
+}
+
+.result {
+  font-family: helvetica;
+  font-size: 32px;
+  white-space: pre; /* this is needed to make a new line for each array item */
+}
+#ans{
+  font-size : 48px;
+}
